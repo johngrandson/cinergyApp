@@ -1,0 +1,23 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodejs ./bin/www",
+    "reset": "firmata-party uno --debug"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "express": "~4.0.0",
+    "firmata": "^1.0.0",
+    "firmata-party": "^1.5.9",
+    "jade": "~1.3.0",
+    "johnny-five": "^1.0.0",
+    "morgan": "~1.0.0",
+    "serialport": "^7.0.2",
+    "socket.io": "^2.1.1",
+    "static-favicon": "~1.0.0"
+  }
+}
